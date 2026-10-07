@@ -25,3 +25,8 @@ jobs:
           
       - name: Install dependencies
         run: npm install express
+
+
+      - name: Test malware(should fail)
+        run: npm install safe-chain-test
+        
